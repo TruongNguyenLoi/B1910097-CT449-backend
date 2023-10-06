@@ -1,4 +1,6 @@
-const express = repuire("express");
+const express = require('express');
+// Các module cần thiết khác...
+
 const contacts = require("../controllers/contact.controller");
 
 const router = express.Router();
